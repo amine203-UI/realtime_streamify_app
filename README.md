@@ -36,34 +36,35 @@ Built using the **MERN stack (MongoDB, Express.js, React, Node.js)** and **Strea
 ### 🧩 Backend (`/backend`)
 
 Create a `.env` file inside the **backend** directory with the following:
-
+```bush
 PORT=5001
 MONGO_URI=your_mongo_uri
 STREAM_API_KEY=your_stream_api_key
 STREAM_API_SECRET=your_stream_api_secret
 JWT_SECRET_KEY=your_jwt_secret
 NODE_ENV=development
-⚠️ Always keep these credentials private and never upload your real .env file to GitHub.
+```
 
 🧩 Frontend (/frontend)
-Create a .env file inside the frontend directory:
-
+Create a `.env` file inside the frontend directory:
+```bush
 VITE_STREAM_API_KEY=your_stream_api_key
-
+```
 
 
 🧱 Installation & Setup
 1️⃣ Run the Backend
-
+```bush
 cd backend
 npm install
 npm run dev
+```
 2️⃣ Run the Frontend
-
+```bush
 cd frontend
 npm install
 npm run dev
-
+```
 
 
 
